@@ -1,0 +1,23 @@
+{
+  "name": "outboxnodejs",
+  "version": "1.0.0",
+  "description": "Outbox-Edu Node Js Classes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kallyas/outboxNodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kallyas/outboxNodejs/issues"
+  },
+  "homepage": "https://github.com/kallyas/outboxNodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
