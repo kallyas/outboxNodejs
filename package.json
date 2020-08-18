@@ -1,28 +1,28 @@
 {
-  "name": "outboxnodejs",
-  "version": "1.0.0",
-  "description": "Outbox-Edu Node Js Classes",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "server": "nodemon server.js",
-    "express-server": "nodemon express-server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kallyas/outboxNodejs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kallyas/outboxNodejs/issues"
-  },
-  "homepage": "https://github.com/kallyas/outboxNodejs#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "httpdispatcher": "^2.1.2",
-    "nodemon": "^2.0.4",
-    "request": "^2.88.2"
-  }
+    "name": "outboxnodejs",
+    "version": "1.0.0",
+    "description": "Outbox-Edu Node Js Classes",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "server": "nodemon server.js",
+        "express-server": "nodemon express-server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kallyas/outboxNodejs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kallyas/outboxNodejs/issues"
+    },
+    "homepage": "https://github.com/kallyas/outboxNodejs#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "httpdispatcher": "^2.1.2",
+        "nodemon": "^2.0.4",
+        "request": "^2.88.2"
+    }
 }
