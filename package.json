@@ -4,7 +4,9 @@
   "description": "Outbox-Edu Node Js Classes",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "nodemon server.js",
+    "express-server": "nodemon express-server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,9 @@
   },
   "homepage": "https://github.com/kallyas/outboxNodejs#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "httpdispatcher": "^2.1.2",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
   }
 }
